@@ -1,0 +1,173 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 ArialMT;\f1\froman\fcharset0 Times-Roman;\f2\fswiss\fcharset0 Arial-ItalicMT;
+\f3\fswiss\fcharset0 Arial-BoldMT;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red251\green0\blue7;
+\red255\green255\blue11;\red227\green133\blue135;\red30\green63\blue16;\red45\green101\blue22;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c100000;\cssrgb\c100000\c0\c0;
+\cssrgb\c100000\c100000\c0;\cssrgb\c91765\c60000\c60000;\cssrgb\c15294\c30588\c7451;\cssrgb\c21961\c46275\c11373;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 \cb3 \expnd0\expndtw0\kerning0
+Exo: 11.1\
+\
+Var somme, resultat, n1, n2, n3, n4, n5 en entier 
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \cb3 Fonction somme(A, B, C, D, E en entier) en entier Renvoyer A+B+C+D+E 
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \cb3 D\'e9but\cb1 \uc0\u8232 \cb3 Ecrire \'935 nombres\'94 Lire n1, n2, n3, n4, n5 
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \cb3 resultat \uc0\u8592  somme(1, n2, n3, n4, n5) Ecrire \'93le r\'e9sultat est :\'94 resultat 
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \cb3 Fin 
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \cb3 \
+\
+\
+Exo: 11.2\
+\
+Fonction NbVoyelles(Mot en caract\'e8re) en num\'e9rique Var i, nb en num\'e9rique\cb1 \uc0\u8232 \cb3 nb \cf4 \uc0\u8592  \cf2 1 \'e0 len(Mot) 
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \cb3 Si trouve( \'93aeiouy\'94, Mid(Mot, i, 1)) <> 0 alors nb \cf4 \uc0\u8592  \cf2 nb + 1\cb1 \uc0\u8232 \cb3 Finsi\cb1 \uc0\u8232 \cb3 i suivant 
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \cb3 Renvoyer nb Finfonction \
+Exo 11.3\
+\
+\
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clcbpat5 \clwWidth1159\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrs\brdrw80\brdrcf2 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clcbpat6 \clwWidth933\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrs\brdrw80\brdrcf2 \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sa240\partightenfactor0
+\cf2 onction 
+\f1\fs24 \cb1 \cell 
+\pard\intbl\itap1\pardeftab720\sa240\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 \cb3 trouver 
+\f1\fs24 \cb1 \cell \lastrow\row
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 \cb3 (A, B en caract\'e8re) en entier 
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \cb3 var i en entier\cb1 \uc0\u8232 \cb3 si len(b) > len(a) alors 
+\f2\i \cf7 // si le B est plus grand que A, la fonction renverra faut 
+\f1\i0\fs24 \cf2 \cb1 \
+
+\f0\fs29\fsmilli14667 \cb3 renvoyer 0 
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \cb3 sinon\cb1 \uc0\u8232 \cb3 Pour \cf4 i \uc0\u8592  1 \'e0 len(A)+1 - len(B)\cb1 \uc0\u8232 \cf2 \cb3 si mid(A, i , len(B)) = B alors 
+\f2\i \cf7 // on recherche dans la position du caract\'e8re B dans A 
+\f0\i0 \cf2 renvoyer i 
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \cb3 i suivant \
+FinFonction \
+\
+DAMIER\
+Var i, j, posi, posj, i2, j2, NB en entier var correct, moveok bool\'e9en 
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \cb3 tableau Damier [7,7] en bool\'e9en Tableau Mov [3,1] en entier 
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \cb3 D\'e9but 
+\f1\fs24 \cb1 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f3\b\fs29\fsmilli14667 \cf8 \cb3 // initialisation du damier 
+\f1\b0\fs24 \cf2 \cb1 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 \cb3 Pour i \uc0\u8592  0 \'e0 7\cb1 \uc0\u8232 \cb3 Pour j \uc0\u8592  0 \'e0 7\cb1 \uc0\u8232 \cb3 Damier[i,j] \uc0\u8592  faux // le 0 c\'92est faux et vrai c\'92est la position du pion i suivant\cb1 \uc0\u8232 \cb3 j suivant 
+\f1\fs24 \cb1 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f3\b\fs29\fsmilli14667 \cf8 \cb3 // initialisation tableau Mov 
+\f1\b0\fs24 \cf2 \cb1 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 \cb3 Mov[0,0] \uc0\u8592  -1 Mov[0,1] \u8592  -1 
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \cb3 Mov[1,0] \uc0\u8592  +1 Mov[1,1] \u8592  -1 
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \cb3 Mov[2,0] \uc0\u8592  -1 Mov[2,1] \u8592  1 
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \cb3 Mov[3,0] \uc0\u8592  +1 Mov[3,1] \u8592  +1 
+\f1\fs24 \cb1 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f3\b\fs29\fsmilli14667 \cf8 \cb3 // Demande la position de pion 
+\f1\b0\fs24 \cf2 \cb1 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 \cb3 Ecrire \'93donner la position de d\'e9part : o\'f9 se trouve votre pion ? \'94 Lire posi, posj 
+\f1\fs24 \cb1 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 \cb6 tantque \cb3 posi< 0 OU posi> 7\cb1 \uc0\u8232 \cb3 \'e9crire \'93merci d\'92\'e9crire un chiffre entre 0 et 7\'94 lire posi 
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \cb6 fintantque 
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \cb6 tantque \cb3 posj< 0 OU posj > 7\cb1 \uc0\u8232 \cb3 \'e9crire \'93merci d\'92\'e9crire un chiffre entre 0 et 7\'94 lire posj 
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \cb6 fintantque 
+\f1\fs24 \cb1 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f3\b\fs29\fsmilli14667 \cf8 \cb3 // Demande le mouvement 
+\f1\b0\fs24 \cf2 \cb1 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 \cb3 Ecrire "choisissez un mouvement : 0(haut gauche), 1(haut droite), 2(bas gauche),3 (bas droite\'94\cb1 \uc0\u8232 \cb3 Lire NB 
+\f1\fs24 \cb1 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 \cb6 Tantque \cb3 NB < 0 OU NB > 3\cb1 \uc0\u8232 \cb3 \'e9crire \'93merci de choisir un autre mouvement compris entre 0 et 3\'94 lire NB 
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \cb6 fintantque 
+\f1\fs24 \cb1 \
+
+\f0\fs29\fsmilli14667 \cb6 // initialisation des nouvelles positions 
+\f1\fs24 \cb1 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 \cb3 i2 \uc0\u8592  posi + Mov[NB, 0] j2 \u8592  posj + Mov[NB, 0] 
+\f1\fs24 \cb1 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f3\b\fs29\fsmilli14667 \cf8 \cb3 // on efface l\'92ancien damier et on dit \'e0 l\'92ordi de garder le nouveau damier Moveok 
+\f0\b0 \cf2 \uc0\u8592  i2 >= 0 ET i2<=7 ET j2>=0 ET j2 <= 7 
+\f1\fs24 \cb1 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 \cb3 Si Moveok alors Damier[posi, posj] \uc0\u8592  faux Damier [i2, j2] \u8592  vrai\cb1 \uc0\u8232 \cb3 finsi 
+\f1\fs24 \cb1 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f3\b\fs29\fsmilli14667 \cf8 \cb3 //si pas possible on s\'92arr\'eate 
+\f1\b0\fs24 \cf2 \cb1 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf2 \cb3 Ecrire \'93mouvement impossible\'94 
+\f1\fs24 \cb1 \
+\
+\
+\
+}
