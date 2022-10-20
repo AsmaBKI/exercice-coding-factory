@@ -1,0 +1,86 @@
+#container{
+width: 770px;
+height: 2150px;
+background-color: white;
+border-bottom: solid 10PX;
+
+
+}
+header{
+height: 258px; 
+
+
+}
+.menud{
+   
+    height: 28px;
+    background-color: rgb(146,216,53);
+    float: left;
+    width: 770px;
+    text-align: center;
+    box-shadow: 0px 2px 5px 0px;
+    
+}
+.etape{
+
+    float: left;
+    border: 1px solid ;
+    width:126px;
+    height: 26px;
+    color: white;
+    
+
+    
+}
+.etape:hover{
+    background-color: rgb(146,229,53);
+}
+.image{
+    height: 00px;
+    float: left;
+    width: 350px
+}
+.design{
+    width: 420px;
+    height: 258PX; 
+    float: right;
+    text-align: center;
+    font-size:xx-large;
+    text-decoration: underline;
+    background-color: white;
+}
+body{
+    background-color: rgb(204, 242,177 );
+}
+.titre{
+
+    width: 130px;
+    float: left;
+    
+   
+   }
+.article{
+    float: left;
+    width: 640px;
+    text-align: justify;
+
+}
+h3{
+    color: rgb(146,229,77);
+    border-bottom-style: solid ;
+    
+}
+.pomme{
+    margin-bottom: -6px;
+  
+}
+.colored{
+    margin-top: 55px;
+    margin-left: 25px;
+}
+p{
+    text-align: justify;
+    margin-right: 10px;
+    text-indent: 10mm ;
+    line-height: 25px;
+}

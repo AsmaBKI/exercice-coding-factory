@@ -1,0 +1,59 @@
+header{
+    width: 800px;
+    height: 70px;
+    background-color: red;
+    margin: auto;
+    line-height: 70px;
+
+    
+    }
+    .gauche{
+    width: 150px;
+    background-color: rgb(49, 96, 149);
+    height: 530px;
+    float: left;
+    margin: auto;
+    line-height: 530px;
+    
+    }
+    .droite{
+        width: 150px;
+        background-color: rgb(49, 96, 149);
+        height: 530px;
+        float: left;
+        line-height: 530px;
+        
+    }
+    
+  
+    .container{
+        margin: 0;  padding: 0; border: 0;  font-size: 100%;    font: inherit;  vertical-align: baseline;   text-align: center; color: white;
+        width: 800px;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .z{
+        float: left;
+        background-color: green;
+        border: 1px solid white;
+        width:98px;
+        height:420px;
+    
+    }
+    .milieu{
+        float: left;
+        height: 530px;
+        line-height: 530px;
+        width: 500px;
+
+    }
+
+    .bas{
+        background: gold;    line-height: 108px;
+        height: 108px;
+        clear: both;
+
+    }
+    
